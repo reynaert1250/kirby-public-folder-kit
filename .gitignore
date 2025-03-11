@@ -13,11 +13,12 @@ Icon
 # Lock files
 # ---------------
 
-.lock
+*.lock
 
 # Editors
 # (sensitive workspace files)
 # ---------------------------
+
 *.sublime-workspace
 /.vscode
 /.idea
@@ -44,6 +45,12 @@ Icon
 /storage/sessions/*
 !/storage/sessions/index.html
 
+# Logs
+# ---------------
+
+/storage/logs/*
+!/storage/logs/index.html
+
 # License
 # ---------------
 
@@ -52,5 +59,6 @@ Icon
 # Composer
 # ---------------
 # https://getkirby.com/docs/cookbook/setup/composer#starting-a-new-project
+
 /kirby
 /vendor
