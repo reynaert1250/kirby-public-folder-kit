@@ -9,6 +9,7 @@ Icon
 
 /storage/media/*
 !/storage/media/index.html
+/public/media
 
 # Lock files
 # ---------------
@@ -62,3 +63,4 @@ Icon
 
 /kirby
 /vendor
+
